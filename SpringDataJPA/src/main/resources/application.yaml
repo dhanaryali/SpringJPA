@@ -1,0 +1,9 @@
+spring:
+ jpa:
+  show-sql: true
+ hibernate:
+  ddl-auto: update
+ datasource:
+  url: jdbc:hsqldb:hsql://localhost/
+  username: SA
+  password:
