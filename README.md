@@ -4,4 +4,4 @@
  
  We have few examples of methods for Query Creation as mentioned above.
  
- Note: To see the output after running this application, we need hsql server should be run parallelly.
+ <b>Note:</b> To see the output after running this application, we need hsql server should be run parallelly.
