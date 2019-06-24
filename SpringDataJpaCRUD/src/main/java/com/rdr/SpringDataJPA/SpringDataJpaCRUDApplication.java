@@ -13,13 +13,13 @@ import com.rdr.SpringDataJPA.repo.DeptRepository;
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "com.rdr.SpringDataJPA.repo")
 @EntityScan(basePackages = "com.rdr.SpringDataJPA.model")
-public class SpringDataJpaApplication {
+public class SpringDataJpaCRUDApplication {
 
 	@Autowired
 	DeptRepository repo;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringDataJpaApplication.class, args);
+		SpringApplication.run(SpringDataJpaCRUDApplication.class, args);
 	}
 
 	/**
