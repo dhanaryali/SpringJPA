@@ -2,10 +2,11 @@
  
  The query builder mechanism built into Spring Data repository infrastructure is useful for building constraining queries over entities of the repository. The mechanism strips the prefixes find…By, read…By, and get…By from the method and starts parsing the rest of it. The introducing clause can contain further expressions such as a Distinct to set a distinct flag on the query to be created. However, the first By acts as delimiter to indicate the start of the actual criteria. At a very basic level you can define conditions on entity properties and concatenate them with And and Or.
  
+ <pre>
  1> CrudRepository provides CRUD functions
  2> PagingAndSortingRepository provides methods to do pagination and sort records
  3> JpaRepository provides JPA related methods such as flushing the persistence context and delete records in a batch
-	And so, because of this inheritance relationship, the JpaRepository contains the full API of CrudRepository and PagingAndSortingRepository.
+	And so, because of this inheritance relationship, the JpaRepository contains the full API of CrudRepository and PagingAndSortingRepository.</pre>
 
  We have few examples of both CrudRepository and JpaRepository (For Paging and Sorting).
  
